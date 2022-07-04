@@ -34,6 +34,10 @@ This project and course have definetly provided great new knowledge in regards t
 
 * Micro-USB had been acquired before project started. 
 
+FiPy 1.0 - TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT ![bild](https://user-images.githubusercontent.com/71591829/177190470-f3a36246-99fb-4406-aeff-8be18fa62bff.png)
+
+PySense 2.0X - Description TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT ![bild](https://user-images.githubusercontent.com/71591829/177190598-4d07a840-0525-4532-9d98-1e72e1f69b19.png)
+
 ## Computer setup
 
 ### Download our project:
