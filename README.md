@@ -83,12 +83,10 @@ This is the most complicated aspect of setting up this project.  We therefore ad
 The tutorial that we followed is linked here, but we will provide some key information here to assist you. 
 •	Normally the expansion board is in Application mode but when we want to update the firmware we need to put the board in DFU (Device Firmware Upgrade) mode as this allows altering of the device’s firmware. In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
  
- 
-
-* Download links:
+Download links:
 Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true)
 DFU-Util here: DFU-util v0.9). 
-Zadig 
+Zadig [here](https://zadig.akeo.ie/)
 •	Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. 
 •	Keep DFU-util and the firmware in the same directory
 
