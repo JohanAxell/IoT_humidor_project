@@ -25,10 +25,10 @@ This project and course have definetly provided great new knowledge in regards t
 ### List of material needed, including description, price and where to buy. 
 
 
-| First Header  | Second Header | Third Header  | Fourth Header |
-| ------------- | ------------- | ------------- | ------------- | 
-| Content Cell  | Content Cell  | First Header  | Second Header |
-| Content Cell  | Content Cell  | First Header  | Second Header |
+| First Header  | Second Header | Third Header |
+| ------------- | ------------- | ------------- 
+| FiPy micro controller  | Content Cell  | First Header  |
+| Content Cell  | Content Cell  | First Header  |
 
 ## Computer setup
 ### Chosen IDE
