@@ -6,25 +6,25 @@
 Johan Axell, ja225ik. Christopher Andersson, ca223sq. 
 
 ### Short project overview
-For this project, the goal is to compose a solution which enables surveillence of enviroment variablables through different sensors. The different variables that will be looked at are the amount of light present, the temperature and the air humidity. These three are the core things to look at in regards to ideal cigar storage conditions. Acceptable ranges for these variables are pre-defined and any deviation from these will trigger a notification sent by email. 
+For this project, the goal is to compose a solution which enables surveillance of environment variables through different sensors. The different variables that will be looked at are the amount of light present, the temperature and the air humidity. These three are the core things to look at in regards to ideal cigar storage conditions. Acceptable ranges for these variables are pre-defined and any deviation from these will trigger a notification sent by email. 
 
 ### How much time it make take to do (approximation)
-1 hour
+2 hour
 
 ## Objective
 ### Background for chosen project
-A long going interest of cigars have always existed in the family. This project along with the sensors included in the firmware that was purchased presented a great oppurtunity to combine this interest and IoT. A humidor, which usually is a box or sometimes a whole room, is something that is primarly used for cigar storage and can often be acquired for a relative decent price. However this solution makes it possible to use other storage enviroments as well, aslong as the variable ranges that is set are adhered to.
+We both have a great interest in and enjoy cigars. This project along with the sensors included in the firmware that was purchased presented a great oppurtunity to combine this interest and IoT. A humidor, which usually is a box or sometimes a whole room, is something that is primarly used for cigar storage and can often be acquired for a relative decent price. However this solution makes it possible to use other storage enviroments as well, as long as the variable ranges that are set are adhered to.
 
 ### Project purpose
 The purpose is a combination of familiarization with the building of an IoT-solution along with facilitation in regards to monitoring different enviroment variables. 
 
 ### Project insights
-This project and course have definetly provided great new knowledge in regards to basic IOT Concepts, along with programming in python. It has also given me some new insights regarding how to use pybytes and ubidots for data analytics and visualization. These application builders are further discussed below. 
+This project and course has definitely provided great new knowledge in regards to basic IOT concepts, along with programming in Python. It has also given us some new insights in to how to use pybytes and ubidots for data analytics and visualization. These application builders are further discussed below. 
 
 ## Material
 ### List of material needed, including description, price and where to buy. 
 
-**Disclaimer:** The material used in the projects were purchased as part of the LNU - 1DT305 Tillämpad IoT - FiPy and sensors bundle. However most of what's included isnt used which is why I would suggest the option below. However if one were to be interested in the extras thats included in the bundle, it can be purchased at electrokit.com 
+**Disclaimer:** The material used in the projects were purchased as part of the LNU - 1DT305 Tillämpad IoT - FiPy and sensors bundle. However most of what's included is not used which is why we would suggest the option below. However if one were to be interested in the extras thats included in the bundle, it can be purchased at electrokit.com 
 
 | First Header  | Category | Purchased at | Price |
 | ------------- | ------------- | ------------- | ------------- |
@@ -102,12 +102,12 @@ Now you can upload the project to the device by pressing CTRL + ALT + S. <br/>
 To run the selected file you press CTRL + ALT + R. <br/>
 
 ## Putting everything together
-For the sake of simplicity and not making things more complicated than they have to be, we have chosen not to use a breadboard, extra wiring or any external sensors for this project. The hardware is more than capable of handling the temperature and enviroment for the intended area of use. The needed sensors are included in the expansion board as well. 
+For the sake of simplicity and not making things more complicated than they have to be, we have chosen not to use a breadboard, extra wiring or any external sensors for this project. The hardware is more than capable of handling the temperature and environment for the intended area of use. The needed sensors are included in the expansion board as well. 
 
 However, for further exploration and added functionality, or to look into how the connection between the microcontroller and sensor shield should be set up,  information can be found [here] (https://pycom.github.io/pydocs/gettingstarted/connection/fipy.html#third)
 
 ## Chosen platform
-For the duration of this project, multiple platform options for data- analysis, visualization and storage was explored. For obvious reasons, the first one that was looked at was Pybytes. Pybytes is a device management platform specifically made for pycom devices. At first, considering the low level of knowledge in the field of IoT, this seemed like a good idea. Even though we experienced some issues initially, we soon had our device provisioned and connection to pybytes established. 
+For the duration of this project, multiple platform options for data- analysis, visualization and storage were explored. For obvious reasons, the first one that was looked at was Pybytes. Pybytes is a device management platform specifically made for pycom devices. At first, considering our low level of knowledge in the field of IoT, this seemed like a good idea. Even though we experienced some issues initially, we soon had our device provisioned and connection to pybytes established. 
 
 However, we soon realized that we wanted to challenge ourselves a bit more, which meant that having pybytes handle everything related to the MQTT-protocol under the hood was not something that we were interested in. Even if setting up our own broker and MQTT-connection still was an option using pybytes, the platform lacked the possibility to set up alerts or prompts based on the sensor data which eventually made us explore other options. 
 Secondly, we looked into Adafruit.io. However, the need for paying for premium in order to access the features we looked for, combined with the fact that we couldn’t determine whether or not the platform supported our microcontroller made us look elsewhere. 
@@ -128,7 +128,7 @@ We chose to create a separate module called config and to store our WiFi credent
 ![image](https://user-images.githubusercontent.com/90699893/177204263-75255c6d-5841-4957-87ea-de7f480fb2f9.png)
 
 ### Avarage temperature 
-We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp + the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. <br/>
+We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp plus the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. <br/>
 ![image](https://user-images.githubusercontent.com/90699893/177204309-ce9d888c-a232-4717-8fa1-1fc56bc528e3.png)
 
 
