@@ -174,9 +174,9 @@ The dashboard contains the following:
 * Relative Humidity – Percentage (Gauge with custom color logic, green if within the range of 60-70, otherwise red) 
 * Humidity over time
 
-
-
 ### Database
+
+With a Ubidots STEM (free) account data is stored for 1 month. The data could be exported to for example Google Sheets or as a .CSV file, which means it could be stored for a longer period of time. Data is saved as often as it is uploaded, which in our case is every 30th minute for temperature, humidity and lux values and every two hours for average temperature values. We decided that this was enough and therefore we did not research other database alternatives for this project.
 ### Data triggers
 
 ## Finalizing the design
