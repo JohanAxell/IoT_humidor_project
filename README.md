@@ -78,7 +78,7 @@ In the next screen, tick all of the boxes (Erase during update, CONFIG partition
 
 
 ### Expansion Board Firmware Update
-The expansion board needs to be updated as it is required by one of the libraries used for this project. We started out using a previous version of said library but were not getting any values from our light sensors.  
+The expansion board needs to be updated as it is required by one of the libraries used for this project. Without this firmware update we were getting no values from the light sensors.
 This is the most complicated aspect of setting up this project.  We therefore advise that you read the following tutorial carefully and that you don’t try to rush through the process of updating the expansion board. 
 The tutorial that we followed is linked [here](https://docs.pycom.io/updatefirmware/expansionboard/), but we will provide some key information here to assist you.\
 
