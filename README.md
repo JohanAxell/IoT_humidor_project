@@ -86,7 +86,7 @@ The tutorial that we followed is linked here, but we will provide some key infor
 Download links:
 Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true)
 DFU-Util here: DFU-util v0.9). 
-Zadig [here](https://zadig.akeo.ie/)
+Zadig [here](https://zadig.akeo.ie/)\
 •	Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. 
 •	Keep DFU-util and the firmware in the same directory
 
