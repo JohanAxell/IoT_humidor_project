@@ -1,21 +1,44 @@
 # IoT_humidor_project
 
-## Name and credentials 
+
+## Overview 
 ### Name and credentials
+### Short project overview
+### How much time it make take to do (approximation)
 
-## Name and credentials 
-### Name and credentials
 
-## Name and credentials 
-### Name and credentials
+## Objective
+### Background for chosen project
+### Project purpose
+### Project insights
 
-## Name and credentials 
+## Material
+### List of material needed, including description, price and where to buy. 
 
-## Name and credentials 
+## Computer setup
+### Chosen IDE
+### How the code is uploaded
+### Steps that needs to be completed in regards to new softwares and driver updates. 
 
-## Name and credentials 
+## Putting everything together
+### Circuit diagram
 
-## Name and credentials 
+## Chosen platform
+### Why this platform(KAN RADERA)
 
-## Name and credentials 
+## The code
+
+## Data transmission and connectivity
+### Frequency
+### Wireless protocols used
+### Transport protocols used
+### Design choices(Kanske radera)
+
+## Data presentation
+### Dashboard
+### Database
+### Data triggers
+
+## Finalizing the design
+
 
