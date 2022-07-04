@@ -49,7 +49,7 @@ The expansion board is a sensor shield and offers a micro-USB port along with mu
 
 ### Download our project:
 
-You can do this either by cloning the repository (instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).) or by pressing “Code” and then “Download ZIP”. 
+You can do this either by cloning the repository (instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).) or by pressing “Code” and then “Download ZIP”. Place the files in to a directory.
 
 ![image](https://user-images.githubusercontent.com/90699893/177184189-e95fbb42-11e9-4ce6-a766-2c2fbd581957.png)
 
@@ -98,6 +98,8 @@ Download links: <br/>
 
 ### Open the project in Atom
 Press "Add folders" and choose the directory that holds the project files. 
+Now you can upload the project to the device by pressing CTRL + ALT + S. 
+To run the selected file you press CTRL + ALT + R.
 
 ## Putting everything together
 ### Circuit diagram
