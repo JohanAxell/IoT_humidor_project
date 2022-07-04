@@ -179,12 +179,14 @@ The dashboard contains the following:
 With a Ubidots STEM (free) account data is stored for 1 month. The data could be exported to for example Google Sheets or as a .CSV file, which means it could be stored for a longer period of time. Data is saved as often as it is uploaded, which in our case is every 30th minute for temperature, humidity and lux values and every two hours for average temperature values. We decided that this was enough and therefore we did not research other database alternatives for this project.
 
 ### Data triggers
+When the event is triggered, an e-mail is sent to our e-mail.
 We added the following triggers: 
 * Humidity is too low (Humidity is below 60 for 5 minutes)
 * Humidity is too high (Humidity is greater than 70 for 5 minutes)
 * Avarage temperature is too low (Avarage temperature is below 18 for 5 minutes)
 * Avarage temperature is too high (Avarage temperature is greater than 23 for 5 minutes)
 * Environment is too bright (Light lux value is greater than 100 for 5 minutes)
+
 
 Without a paid subscription we were unable to add conditionals such AND or OR. Had we been able to add conditionals we would've combined the triggers for humidity in to one trigger and the ones for temperature in to another, like so: Humidity is below 60 for 5 minutes OR Humidity is greater than 70 for 5 minutes.
 
