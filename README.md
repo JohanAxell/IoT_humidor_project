@@ -80,17 +80,16 @@ In the next screen, tick all of the boxes (Erase during update, CONFIG partition
 ### Expansion Board Firmware Update
 
 This is the most complicated aspect of setting up this project.  We therefore advise that you read the following tutorial carefully and that you don’t try to rush through the process of updating the expansion board. 
-The tutorial that we followed is linked here, but we will provide some key information here to assist you. 
-•	Normally the expansion board is in Application mode but when we want to update the firmware we need to put the board in DFU (Device Firmware Upgrade) mode as this allows altering of the device’s firmware. In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
- 
- 
+The tutorial that we followed is linked [here](https://docs.pycom.io/updatefirmware/expansionboard/), but we will provide some key information here to assist you.\
 
-* Download links:
-Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true)
-DFU-Util here: DFU-util v0.9). 
-Zadig 
-•	Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. 
-•	Keep DFU-util and the firmware in the same directory
+Normally the expansion board is in Application mode but when we want to update the firmware we need to put the board in DFU (Device Firmware Upgrade) mode as this allows altering of the device’s firmware. In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
+ 
+Download links: <br/>
+Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true) <br/>
+DFU-Util here: DFU-util v0.9). <br/>
+Zadig [here](https://zadig.akeo.ie/) <br/>
+Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. <br/>
+Keep DFU-util and the firmware in the same directory. <br/>
 
 
 ### How the code is uploaded
@@ -117,11 +116,6 @@ Below is a screenshot of the device menu on the Ubidots platform. This is where 
 
 ## Data transmission and connectivity
 ### Frequency
-We have chosen to send data every 30th minute. The main reason why is because we assume that if this were to leave the development stage, a battery would be included and this would be one way to save power. We believe that uploading more often than this would not provide any obvious benefits but uploading more seldom might compromise the enviroment quality in the case of some sort of malfunction or unforseen circumstance. 
-<br/>
-![bild](https://user-images.githubusercontent.com/71591829/177195839-4366899c-cedd-4cbd-b88f-86aad4356bad.png)
-<br/>
-If a battery isn't connected however, the "DELAY"-variable could be lowered without any downsides. 
 ### Wireless protocols used
 ### Transport protocols used
 ### Design choices(Kanske radera)
