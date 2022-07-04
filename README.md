@@ -130,14 +130,20 @@ If a battery isn't connected however, the "DELAY"-variable could be lowered with
 ### Wireless protocols used
 For our project, we have chosen to use Wi-Fi as the wireless protocol. We have done so due to it being easily accessible and compared to another option such as LoRa, the improved data transfer distance is not something that would benefit our project anyhow. It is however worth considering options when taking battery life into consideration and how Wi-Fi in general consumes quite a bit more power. Another aspect worth noting is that the device will almost exclusively be used indoors, which increases the chance of a Wi-Fi being available. LTE is another option we briefly looked into but chose to skip. If the data was of a more sensitive nature and security would be an aspect of higher priority, this could be a more probable candidate. 
 
-Along with defining the variables and importing the library, this code snippet highlights the main functionality for establishing the Wi-Fi connection. Credit to https://hackmd.io/@lnu-iot/Hkpudaxq9
+Along with defining the variables and importing the library, this code snippet highlights the main functionality for establishing the Wi-Fi connection.  Heavily inspired by: https://hackmd.io/@lnu-iot/Hkpudaxq9
 
 ![bild](https://user-images.githubusercontent.com/71591829/177198191-3bd54c49-95a8-4ef5-b255-7e48d46cd68a.png)
 
-
-
 ### Transport protocols used
-### Design choices(Kanske radera)
+
+In regards to transport protocols, we eventually ended up with HTTP instead of MQTT. The main reason for this was actually because we had some previous experience with MQTT and wanted to explore HTTP and how it works. However, in our project there is quite a few aspects indicating that MQTT would be just as good, if not an even better choice. To mention a few, MQTT is designed for data delivery and not entire pages as HTTP. Security wise, MQTT also has a slight edge due to it using SSL/TLS while also applying encryption to the payload. This while HTTP offers no encryption at all. MQTT offers a slightly higher level of reliability as well. 
+
+In the code snippet below is our main functionality for creating a json object and sending it through a POST-request. 
+Again, heavily inspired by: https://hackmd.io/@lnu-iot/Hkpudaxq9
+
+![bild](https://user-images.githubusercontent.com/71591829/177203824-9b51f3ac-3f3c-4adb-9323-9fa73216056f.png)
+
+
 
 ## Data presentation
 ### Dashboard
