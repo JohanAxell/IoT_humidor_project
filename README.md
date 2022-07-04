@@ -88,9 +88,9 @@ Normally the expansion board is in Application mode but when we want to update t
 
  
 Download links: <br/>
-Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true) <br/>
-DFU-Util [here](http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip) <br/>
-Zadig [here](https://zadig.akeo.ie/) <br/>
+* Latest firmware DFU file: [here](https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true) <br/>
+* DFU-Util [here](http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip) <br/>
+* Zadig [here](https://zadig.akeo.ie/) <br/>
 
 Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. <br/>
 
