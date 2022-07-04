@@ -120,6 +120,20 @@ Below is a screenshot of the device menu on the Ubidots platform. This is where 
 
 ## The code
 
+### Libraries
+Initially we included everything from [Pycoms pysense2 library]( https://github.com/pycom/pycom-libraries/releases/download/v2.0.0/pysense2.zip/) but we decided to remove modules that were outside of our scope and to only keep those parts that were needed for our project.
+We chose to create a separate module called config and to store our WiFi credentials along with our Ubidots token there. We did this because it allows us to share our project while keeping that kind of sensitive information hidden by for example adding a .gitignore rule for it.  
+![image](https://user-images.githubusercontent.com/90699893/177204263-75255c6d-5841-4957-87ea-de7f480fb2f9.png)
+
+### Avarage temperature 
+We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp + the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. 
+![image](https://user-images.githubusercontent.com/90699893/177204309-ce9d888c-a232-4717-8fa1-1fc56bc528e3.png)
+
+
+While testing our code we came to realize that there was no way for the device to know if the data was being received by Ubidots. We were curious to know what the response code was when we, for example, inserted the wrong token. In that was it was 401, which is why we implemented the code below, so that we would be made aware immediately if the data was not being received. 
+![image](https://user-images.githubusercontent.com/90699893/177204378-82d13fba-2b38-452c-9225-b34fc4367fd8.png)
+
+
 ## Data transmission and connectivity
 ### Frequency
 We have chosen to send data every 30th minute. The main reason why is because we assume that if this were to leave the development stage, a battery would be included and this would be one way to save power. We believe that uploading more often than this would not provide any obvious benefits but uploading more seldom might compromise the enviroment quality in the case of some sort of malfunction or unforseen circumstance. 
