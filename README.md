@@ -129,7 +129,7 @@ If a battery isn't connected however, the "DELAY"-variable could be lowered with
 ### Wireless protocols used
 For our project, we have chosen to use Wi-Fi as the wireless protocol. We have done so due to it being easily accessible and compared to another option such as LoRa, the improved data transfer distance is not something that would benefit our project anyhow. It is however worth considering options when taking battery life into consideration and how Wi-Fi in general consumes quite a bit more power. Another aspect worth noting is that the device will almost exclusively be used indoors, which increases the chance of a Wi-Fi being available. LTE is another option we briefly looked into but chose to skip. If the data was of a more sensitive nature and security would be an aspect of higher priority, this could be a more probable candidate. 
 
-Along with defining the variables, this code snippet highlights the main functionality for establishing the Wi-Fi connection. It was heavily inspired by https://hackmd.io/@lnu-iot/Hkpudaxq9
+Along with defining the variables and importing the library, this code snippet highlights the main functionality for establishing the Wi-Fi connection. Credit to https://hackmd.io/@lnu-iot/Hkpudaxq9
 
 ![bild](https://user-images.githubusercontent.com/71591829/177198191-3bd54c49-95a8-4ef5-b255-7e48d46cd68a.png)
 
