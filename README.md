@@ -72,6 +72,8 @@ Secondly, we looked into Adafruit.io. However, the need for paying for premium i
 
 Eventually, we stumbled upon Ubidots which turned out to be exactly what we were looking for. Like Adafruit, there is a premium membership which included some neat functionality that will be elaborated on in a later section. However, for our project, the basic membership level was more than enough. Unlike Pybytes, Ubidots offered the possibility to set up triggers based on sensor data values which in turn would result in an email or a text message. This was a crucial part of the project considering the implication of values outside the specified range. The overall impression was that the user friendliness was one step above the one experienced with pybytes, the functionality was to easier grasp and the data presentation was a lot more visually pleasing. 
 
+
+Below is a screenshot of the device menu on the Ubidots platform. This is where the different sensor variables are defined. 
 ![bild](https://user-images.githubusercontent.com/71591829/177188185-902a6842-4cfc-402d-88dc-9621c04417d8.png)
 
 
