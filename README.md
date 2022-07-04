@@ -24,6 +24,12 @@ This project and course have definetly provided great new knowledge in regards t
 ## Material
 ### List of material needed, including description, price and where to buy. 
 
+
+| First Header  | Second Header | Third Header  | Fourth Header |
+| ------------- | ------------- | ------------- | ------------- | 
+| Content Cell  | Content Cell  | First Header  | Second Header |
+| Content Cell  | Content Cell  | First Header  | Second Header |
+
 ## Computer setup
 ### Chosen IDE
 ### How the code is uploaded
