@@ -36,7 +36,6 @@ This project and course have definetly provided great new knowledge in regards t
 
 ## Computer setup
 
-### Chosen IDE
 Download our project:
 
 You can do this either by cloning the repository (instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).) or by pressing “Code” and then “Download ZIP”. 
