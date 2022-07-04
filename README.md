@@ -187,8 +187,6 @@ We added the following triggers:
 * Environment is too bright (Light lux value is greater than 100 for 5 minutes)
 
 Without a paid subscription we were unable to add conditionals such AND or OR. Had we been able to add conditionals we would've combined the triggers for humidity in to one trigger and the ones for temperature in to another, like so: Humidity is below 60 for 5 minutes OR Humidity is greater than 70 for 5 minutes.
-![image](https://user-images.githubusercontent.com/90699893/177208486-def64135-e443-4941-b781-a1ce547cbd2f.png)
-
 
 
 ## Finalizing the design
