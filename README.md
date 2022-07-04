@@ -56,7 +56,15 @@ In Visual Studio Code, press CTRL + Shift + X, this will open the Extensions pag
 
 ![image](https://user-images.githubusercontent.com/90699893/177182600-7c351a63-8989-4ad8-a7f4-2d9830a66331.png)
 
- 
+### Firmware Update
+
+Pycom recommends that firmware is upgraded to the latest version as they are constantly making improvements and adding new features to the devices. 
+You can download the latest firmware from [this]( https://software.pycom.io/findupgrade?product=pycom-firmware-updater&type=all&platform=win32&redirect=true) link.
+Install the downloaded file and then tick the box saying “Start Pycom Firmware Updater after finishing installation” and then press “Finish” 
+You can press “Continue” past the first two screens. Under “Please select the serial port to use” you choose the COM port for your PyCom Expansion board. If you are unsure you can find this information in Windows Device Manager. Länka in bild från Windows Device Manager.
+In the same screen, after “Type:” choose development. If you wish to use Pybytes instead of Ubidots (we will elaborate on the difference between these two further down in the text), you can choose pybytes here.
+In the next screen, tick all of the boxes (Erase during update, CONFIG partition and NVS Partition) and press continue. After it is done you press "Done".
+
 
 ### How the code is uploaded
 ### Steps that needs to be completed in regards to new softwares and driver updates. 
