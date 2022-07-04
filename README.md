@@ -122,7 +122,7 @@ Below is a screenshot of the device menu on the Ubidots platform. This is where 
 
 ### Libraries
 Initially we included everything from [Pycoms pysense2 library]( https://github.com/pycom/pycom-libraries/releases/download/v2.0.0/pysense2.zip/) but we decided to remove modules that were outside of our scope and to only keep those parts that were needed for our project.
-We chose to create a separate module called config and to store our WiFi credentials along with our Ubidots token there. We did this because it allows us to share our project while keeping that kind of sensitive information hidden by for example adding a .gitignore rule for it.  
+We chose to create a separate module called config and to store our WiFi credentials along with our Ubidots token there. We did this because it allows us to share our project while keeping that kind of sensitive information hidden by for example adding a .gitignore rule for it. <br/>
 ![image](https://user-images.githubusercontent.com/90699893/177204263-75255c6d-5841-4957-87ea-de7f480fb2f9.png)
 
 ### Avarage temperature 
