@@ -102,7 +102,9 @@ Now you can upload the project to the device by pressing CTRL + ALT + S. <br/>
 To run the selected file you press CTRL + ALT + R. <br/>
 
 ## Putting everything together
-### Circuit diagram
+For the sake of simplicity and not making things more complicated than they have to be, we have chosen not to use a breadboard, extra wiring or any external sensors for this project. The hardware is more than capable of handling the temperature and enviroment for the intended area of use. The needed sensors are included in the expansion board as well. 
+
+However, for further exploration and added functionality, or to look into how the connection between the microcontroller and sensor shield should be set up,  information can be found [here] (https://pycom.github.io/pydocs/gettingstarted/connection/fipy.html#third)
 
 ## Chosen platform
 For the duration of this project, multiple platform options for data- analysis, visualization and storage was explored. For obvious reasons, the first one that was looked at was Pybytes. Pybytes is a device management platform specifically made for pycom devices. At first, considering the low level of knowledge in the field of IoT, this seemed like a good idea. Even though we experienced some issues initially, we soon had our device provisioned and connection to pybytes established. 
