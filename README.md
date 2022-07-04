@@ -65,7 +65,11 @@ In Visual Studio Code, press CTRL + Shift + X, this will open the Extensions pag
 ### Circuit diagram
 
 ## Chosen platform
-### Why this platform(KAN RADERA)
+For the duration of this project, multiple platform options for data- analysis, visualization and storage was explored. For natural reasons, the first one that was looked at was Pybytes. Pybytes is a device management platform specifically made for pycom devices. At first, considering the low level of knowledge in the field of IoT, this seemed like a good idea. Even though we experienced some issues initially, we soon had our device provisioned and connection to pybytes established. 
+However, we soon realized that we wanted to challenge ourselves a bit more, which meant that having pybytes handle everything related to the MQTT-protocol under the hood was not something that we were interested in. Even if setting up our own broker and MQTT-connection still was an option using pybytes, the platform lacked the possibility to set up alerts or prompts based on the sensor data which eventually made us explore other options. 
+Secondly, we looked into Adafruit.io. However, the need for paying for premium in order to access the features we looked for, combined with the fact that we couldn’t determine whether or not the platform supported our microcontroller made us look elsewhere. 
+Eventually, we stumbled upon Ubidots which turned out to be exactly what we were looking for. Like Adafruit, there is a premium membership which included some neat functionality that will be elaborated on in a later section. However, for our project, the basic membership level was more than enough. Unlike Pybytes, Ubidots offered the possibility to set up triggers based on sensor data values which in turn would result in an email or a text message. This was a crucial part of the project considering the implication of values outside the specified range. The overall impression was that the user friendliness was one step above the one experienced with pybytes, the functionality was to easier grasp and the data presentation was a lot more visually pleasing. 
+
 
 ## The code
 
