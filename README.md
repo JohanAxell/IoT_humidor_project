@@ -38,6 +38,7 @@ This project and course have definetly provided great new knowledge in regards t
 
 ### Chosen IDE
 Setting up the development environment:
+
 Atom was our integrated development environment (IDE) of choice for this project. To use it you need to download and install Atom along with Node js. You will also need to install a plugin called Pymakr within Atom.
 Within Atom, press CTRL + Comma, this will open the settings page in which you press “Install”, search for “pymakr”, and then press “Install” as shown below: 
  
