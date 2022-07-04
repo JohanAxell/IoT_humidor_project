@@ -32,6 +32,8 @@ This project and course have definetly provided great new knowledge in regards t
 | Pycom Pysense 2.0X  | Expansion board  | sparkfun.com  | 34,95 USD  |
 | Micro-USB*  | Cable  |   |   |
 
+* Micro-USB had been acquired before project started. 
+
 ## Computer setup
 ### Chosen IDE
 ### How the code is uploaded
