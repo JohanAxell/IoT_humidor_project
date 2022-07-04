@@ -192,5 +192,15 @@ Without a paid subscription we were unable to add conditionals such AND or OR. H
 
 
 ## Finalizing the design
+Overall, the project ended up quite close to how we envisioned the finalized product. Our goal with the project was to facilitate collection of data through sensors and the presentation of data, using application builders such as Ubidots, along with establishing a wireless connection between client and server. 
 
+The project, and course overall, provided a heap of new valuable experiences and lessons, a long with a new and interesting way of problem solving. Battling with firmware updates in the pysense expansion board is unlike anything we encountered previously. 
+
+To mention a few things that we probably will change moving forward. 
+We will include a battery to make the usage of the device a lot more practical. We have already looked into how it would work and have the code prepared for it. 
+We also aim to actually integrate a lot of this into an app or webpage instead, especially now when we are a bit more familiarized with HTTP.  Having a prompt regarding the temperature being too high sent through email isn’t ideal compared to a notification in an app downloaded in your smartphone. The data presentation would be another thing that would be moved here as well. 
+
+It would also be nice to expand on the code that was briefly discussed in the Troubleshooting section so that we can be made aware of other response codes. This in order to further facilitate and streamline troubleshooting. This could potentially incorporate different LED flashing from the FiPy depending on the current error status. 
+
+Another thing worth mentioning if we we’re to re-do the project is that we would probably purchase more suitable parts. The bundle included a lot of things that we did not need which in turn just ended up being somewhat of a waste. To mention a few, adding a breadboard, wiring and another temperature sensor, when there is one already present on the sensor shield did not make any sense at all. The same could be said for the other sensors as well. 
 
