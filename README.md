@@ -2,8 +2,12 @@
 
 
 ## Overview 
-### Name and credentials
+### Name and credentials: 
+Johan Axell, ja225ik
+
 ### Short project overview
+
+
 ### How much time it make take to do (approximation)
 
 
