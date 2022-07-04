@@ -34,11 +34,12 @@ This project and course have definetly provided great new knowledge in regards t
 
 * Micro-USB had been acquired before project started. 
 
-FiPy 1.0 - Description TEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXT![bild](https://user-images.githubusercontent.com/71591829/177190781-16972770-a004-4529-b23e-5e7a1962930b.png)
+FiPy 1.0  ![bild](https://user-images.githubusercontent.com/71591829/177190781-16972770-a004-4529-b23e-5e7a1962930b.png)
+Fipy is one of the latest Micropython enabled microcontrollers, made by Pycom. It has integrated multiple network options, specifically WiFi, Bluetooth, LoRa, Sigfox and dual LTE-M. However in order to program it, the device also needs an expansion board in order to use its serial port. This is one of the reasons why we are also using a PySense 2.0X. Worth noting is also that it can handle temperatures from -20 to 85 degrees celcius. This is crucial considering we are not using any external sensors for this project. It also has a very low power usage compared to other micro controllers. 
 
 
-PySense 2.0X - Description TEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXTTEXT-TEXT ![bild](https://user-images.githubusercontent.com/71591829/177190888-53d089f1-9637-467c-af55-123e5e99c77c.png)
-
+PySense 2.0X  ![bild](https://user-images.githubusercontent.com/71591829/177190888-53d089f1-9637-467c-af55-123e5e99c77c.png)
+The expansion board is a sensor shield and offers a micro-USB port along with multiple sensors. Outside the sensors that are used in this project, it also offers a pressure sensor, an accelerometer , battery charger and microSD card compatibility. 
 
 ## Computer setup
 
