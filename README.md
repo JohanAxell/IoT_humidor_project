@@ -96,7 +96,8 @@ Download links: <br/>
 * DFU-Util [here](http://dfu-util.sourceforge.net/releases/dfu-util-0.9-win64.zip) <br/>
 * Zadig [here](https://zadig.akeo.ie/) <br/>
 
-### How the code is uploaded
+### Open the project in Atom
+
 
 ## Putting everything together
 ### Circuit diagram
