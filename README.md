@@ -97,7 +97,7 @@ Download links: <br/>
 * Zadig [here](https://zadig.akeo.ie/) <br/>
 
 ### Open the project in Atom
-
+Press "Add folders" and navigate to the directory that holds the project files. 
 
 ## Putting everything together
 ### Circuit diagram
