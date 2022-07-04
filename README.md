@@ -11,7 +11,7 @@ In every step of the project, each aspect have been worked on jointly. Everythin
 ### Short project overview
 For this project, the goal is to compose a solution which enables surveillance of environment variables through different sensors. The different variables that will be looked at are the amount of light present, the temperature and the air humidity. These three are the core things to look at in regards to ideal cigar storage conditions. Acceptable ranges for these variables are pre-defined and any deviation from these will trigger a notification sent by email. 
 
-### How much time it make take to do (approximation)
+### How much time it may take to do (approximation)
 2 hour
 
 ## Objective
