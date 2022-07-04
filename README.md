@@ -161,6 +161,17 @@ Again, heavily inspired by: https://hackmd.io/@lnu-iot/Hkpudaxq9
 
 ## Data presentation
 ### Dashboard
+![image](https://user-images.githubusercontent.com/90699893/177205492-817a59ba-6a13-4e42-94cc-76bbaea0d525.png)
+The dashboard contains the following: 
+* Temperature – in Celsius and Fahrenheit
+* Average temperature in Celsius over time
+* Temperature over time
+* Light over time
+* Light – Lux value
+* Relative Humidity – Percentage
+* Humidity over time
+
+
 ### Database
 ### Data triggers
 
