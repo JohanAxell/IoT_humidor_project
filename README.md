@@ -36,13 +36,13 @@ This project and course have definetly provided great new knowledge in regards t
 
 ## Computer setup
 
-# Download our project:
+### Download our project:
 
 You can do this either by cloning the repository (instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).) or by pressing “Code” and then “Download ZIP”. 
 
 ![image](https://user-images.githubusercontent.com/90699893/177184189-e95fbb42-11e9-4ce6-a766-2c2fbd581957.png)
 
-# Setting up the development environment:
+### Setting up the development environment:
 
 Atom was our integrated development environment (IDE) of choice for this project. To use it you need to download and install Atom along with Node js. You will also need to install a plugin called Pymakr within Atom.
 Within Atom, press CTRL + Comma, this will open the settings page in which you press “Install”, search for “pymakr”, and then press “Install” as shown below: 
