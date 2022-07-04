@@ -30,7 +30,6 @@ This project and course have definetly provided great new knowledge in regards t
 | ------------- | ------------- | ------------- 
 | FiPy 1.0 | Micro controller  | sparkfun.com  | 77,95 USD  |
 | Pycom Pysense 2.0X  | Expansion board  | sparkfun.com  | 34,95 USD  |
-| Micro USB*  | Cable  |   |   |
 
 * 
 
