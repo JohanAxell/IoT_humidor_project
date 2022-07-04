@@ -5,6 +5,9 @@
 ### Name and credentials: 
 Johan Axell, ja225ik. Christopher Andersson, ca223sq. 
 
+### Individual Contributions
+In every step of the project, each aspect have been worked on jointly. Everything from hardware setup to coding to this report. 
+
 ### Short project overview
 For this project, the goal is to compose a solution which enables surveillance of environment variables through different sensors. The different variables that will be looked at are the amount of light present, the temperature and the air humidity. These three are the core things to look at in regards to ideal cigar storage conditions. Acceptable ranges for these variables are pre-defined and any deviation from these will trigger a notification sent by email. 
 
