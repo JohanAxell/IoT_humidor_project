@@ -29,7 +29,7 @@ This project and course have definetly provided great new knowledge in regards t
 | First Header  | Category | Purchased at | Price |
 | ------------- | ------------- | ------------- | ------------- |
 | FiPy 1.0 | Micro controller  | sparkfun.com  | 77,95 USD  |
-| Pycom Pysense 2.0X  | Expansion board  | sparkfun.com  | 34,95 USD  |
+| Pycom Pysense 2.0X  | Expansion board/Sensor shield  | sparkfun.com  | 34,95 USD  |
 | Micro-USB*  | Cable  |   |   |
 
 * Micro-USB had been acquired before project started. 
@@ -89,7 +89,7 @@ For the duration of this project, multiple platform options for data- analysis, 
 However, we soon realized that we wanted to challenge ourselves a bit more, which meant that having pybytes handle everything related to the MQTT-protocol under the hood was not something that we were interested in. Even if setting up our own broker and MQTT-connection still was an option using pybytes, the platform lacked the possibility to set up alerts or prompts based on the sensor data which eventually made us explore other options. 
 Secondly, we looked into Adafruit.io. However, the need for paying for premium in order to access the features we looked for, combined with the fact that we couldn’t determine whether or not the platform supported our microcontroller made us look elsewhere. 
 
-Eventually, we stumbled upon Ubidots which turned out to be exactly what we were looking for. Like Adafruit, there is a premium membership which included some neat functionality that will be elaborated on in a later section. However, for our project, the basic membership level was more than enough. Unlike Pybytes, Ubidots offered the possibility to set up triggers based on sensor data values which in turn would result in an email or a text message. This was a crucial part of the project considering the implication of values outside the specified range. The overall impression was that the user friendliness was one step above the one experienced with pybytes, the functionality was to easier grasp and the data presentation was a lot more visually pleasing. 
+Eventually, we stumbled upon Ubidots which turned out to be what we were looking for. Like Adafruit, there is a premium membership which included some neat functionality that will be elaborated on in a later section. However, for our project, the basic membership level was more than enough. Unlike Pybytes, Ubidots offered the possibility to set up triggers based on sensor data values which in turn would result in an email or a text message. This was a crucial part of the project considering the implication of values outside the specified range. The overall impression was that the user friendliness was one step above the one experienced with pybytes, the functionality was to easier grasp and the options for data visualization was a lot more visually pleasing. 
 
 
 Below is a screenshot of the device menu on the Ubidots platform. This is where the different sensor variables are defined. 
