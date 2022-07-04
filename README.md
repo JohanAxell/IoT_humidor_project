@@ -97,9 +97,9 @@ Download links: <br/>
 * Zadig [here](https://zadig.akeo.ie/) <br/>
 
 ### Open the project in Atom
-Press "Add folders" and choose the directory that holds the project files. 
-Now you can upload the project to the device by pressing CTRL + ALT + S. 
-To run the selected file you press CTRL + ALT + R.
+Press "Add folders" and choose the directory that holds the project files. <br/>
+Now you can upload the project to the device by pressing CTRL + ALT + S. <br/>
+To run the selected file you press CTRL + ALT + R. <br/>
 
 ## Putting everything together
 ### Circuit diagram
