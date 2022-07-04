@@ -126,7 +126,7 @@ We chose to create a separate module called config and to store our WiFi credent
 ![image](https://user-images.githubusercontent.com/90699893/177204263-75255c6d-5841-4957-87ea-de7f480fb2f9.png)
 
 ### Avarage temperature 
-We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp + the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. 
+We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp + the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. <br/>
 ![image](https://user-images.githubusercontent.com/90699893/177204309-ce9d888c-a232-4717-8fa1-1fc56bc528e3.png)
 
 
