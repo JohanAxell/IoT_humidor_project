@@ -27,9 +27,10 @@ This project and course have definetly provided great new knowledge in regards t
 **Disclaimer:** The material used in the projects were purchased as part of the LNU - 1DT305 Tillämpad IoT - FiPy and sensors bundle. However most of what's included isnt used which is why I would suggest the option below. However if one were to be interested in the extras thats included in the bundle, it can be purchased at electrokit.com 
 
 | First Header  | Category | Purchased at | Price |
-| ------------- | ------------- | ------------- 
+| ------------- | ------------- | ------------- |
 | FiPy 1.0 | Micro controller  | sparkfun.com  | 77,95 USD  |
 | Pycom Pysense 2.0X  | Expansion board  | sparkfun.com  | 34,95 USD  |
+| Micro-USB*  | Cable  |   |   |
 
 ## Computer setup
 ### Chosen IDE
