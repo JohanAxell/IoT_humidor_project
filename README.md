@@ -77,6 +77,22 @@ In the same screen, after “Type:” choose development. If you wish to use Pyb
 In the next screen, tick all of the boxes (Erase during update, CONFIG partition and NVS Partition) and press continue. After it is done you press "Done".
 
 
+### Expansion Board Firmware Update
+
+This is the most complicated aspect of setting up this project.  We therefore advise that you read the following tutorial carefully and that you don’t try to rush through the process of updating the expansion board. 
+The tutorial that we followed is linked here, but we will provide some key information here to assist you. 
+•	Normally the expansion board is in Application mode but when we want to update the firmware we need to put the board in DFU (Device Firmware Upgrade) mode as this allows altering of the device’s firmware. In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
+ 
+ 
+
+* Download links:
+Latest firmware DFU file: here https://software.pycom.io/findupgrade?key=pysense2.dfu&type=all&redirect=true
+DFU-Util here: DFU-util v0.9
+Zadig 
+•	Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. 
+•	Keep DFU-util and the firmware in the same directory
+
+
 ### How the code is uploaded
 ### Steps that needs to be completed in regards to new softwares and driver updates. 
 
