@@ -86,7 +86,7 @@ The tutorial that we followed is linked [here](https://docs.pycom.io/updatefirmw
 * Keep in mind that this is done with the Pysense board alone, the FiPy should not be mounted on it. <br/>
 * Keep DFU-util and the firmware in the same directory. <br/>
 * In Zadig, if you can't find your device, you can click on "Options" and then on "List all devices". 
-* Normally the expansion board is in Application mode but when we want to update the firmware we need to put the board in DFU (Device Firmware Upgrade) mode as this allows altering of the device’s firmware. In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
+* In DFU mode the Product ID of the device is changed.  Below you can see the Product ID for the Pysense board in update mode and application(normal) mode. 
 
 ![image](https://user-images.githubusercontent.com/90699893/177196667-a71a29a8-d607-4899-9de2-1557c043012a.png)
 
