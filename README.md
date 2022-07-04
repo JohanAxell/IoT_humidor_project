@@ -131,7 +131,7 @@ We chose to create a separate module called config and to store our WiFi credent
 We thought that it might be interesting to know the average temperature and to achieve this we used the three variables counter, avgtemp and final_avg as shown below. Counter is incremented by one, avgtemp calculates avgtemp plus the value from the temperature sensor and final_avg is avg_temp divided by counter. These calculations are done once every iteration but the information is only sent once every fourth iteration through our usage of the modulus operator. <br/>
 ![image](https://user-images.githubusercontent.com/90699893/177204309-ce9d888c-a232-4717-8fa1-1fc56bc528e3.png)
 
-
+### Troubleshooting
 While testing our code we came to realize that there was no way for the device to know if the data was being received by Ubidots. We were curious to know what the response code was when we, for example, inserted the wrong token. In that case was it was 401, which is the status code which is usually returned when the client provides no credentials or invalid credentials. This is very helpful for troubleshooting. 
 ![image](https://user-images.githubusercontent.com/90699893/177204378-82d13fba-2b38-452c-9225-b34fc4367fd8.png)
 
