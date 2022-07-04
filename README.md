@@ -97,7 +97,6 @@ Download links: <br/>
 * Zadig [here](https://zadig.akeo.ie/) <br/>
 
 ### How the code is uploaded
-### Steps that needs to be completed in regards to new softwares and driver updates. 
 
 ## Putting everything together
 ### Circuit diagram
