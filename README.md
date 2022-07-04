@@ -35,7 +35,23 @@ This project and course have definetly provided great new knowledge in regards t
 * Micro-USB had been acquired before project started. 
 
 ## Computer setup
+
 ### Chosen IDE
+Setting up the development environment:
+Atom was our integrated development environment (IDE) of choice for this project. To use it you need to download and install Atom along with Node js. You will also need to install a plugin called Pymakr within Atom.
+Within Atom, press CTRL + Comma, this will open the settings page in which you press “Install”, search for “pymakr”, and then press “Install” as shown below: 
+ 
+![image](https://user-images.githubusercontent.com/90699893/177182534-518097f1-8b8e-4dbe-8a3c-d0ea5df97f58.png)
+
+It has been announced that Atom will be retired on December 15, 2022. Therefore, for posterity, we would like to inform that you can also use Visual Studio Code.  
+
+Visual Studio Code can be downloaded here. 
+In Visual Studio Code, press CTRL + Shift + X, this will open the Extensions page in which you search for “pymakr” and then press “Install” as shown below. 
+
+![image](https://user-images.githubusercontent.com/90699893/177182600-7c351a63-8989-4ad8-a7f4-2d9830a66331.png)
+
+ 
+
 ### How the code is uploaded
 ### Steps that needs to be completed in regards to new softwares and driver updates. 
 
