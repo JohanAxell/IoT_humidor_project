@@ -199,6 +199,11 @@ Overall, the project ended up quite close to how we envisioned the finalized pro
 
 The project, and course overall, provided a heap of new valuable experiences and lessons, a long with a new and interesting way of problem solving. Battling with firmware updates in the pysense expansion board is unlike anything we encountered previously. 
 
+![bild](https://user-images.githubusercontent.com/71591829/177514602-ad703515-8298-4e09-a347-84b33f06bb24.png)
+
+![bild](https://user-images.githubusercontent.com/71591829/177514650-762155da-a548-45c4-95ca-9492db22df4c.png)
+
+
 To mention a few things that we probably will change moving forward. 
 We will include a battery to make the usage of the device a lot more practical. We have already looked into how it would work and have the code prepared for it. 
 We also aim to actually integrate a lot of this into an app or webpage instead, especially now when we are a bit more familiarized with HTTP.  Having a prompt regarding the temperature being too high sent through email isn’t ideal compared to a notification in an app downloaded in your smartphone. The data presentation would be another thing that would be moved here as well. 
